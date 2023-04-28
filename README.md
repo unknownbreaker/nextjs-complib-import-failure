@@ -17,6 +17,7 @@ yarn build
 ### WORKAROUND
 
 **Dynamic imports**
+
 ```javascript
 import dynamic from 'next/dynamic';
 
@@ -29,10 +30,11 @@ export default function TopNav(props: any) {
 }
 ```
 **Challenges**
-How to import the named exports from the component, like types and enums.
+
+* How to import the named exports from the component, like the types and enums?
 
 
-### FAILURES
+### OTHER ATTEMPTS (UNSUCCESSFUL)
 
 * **Apply SASS loader**: [Sass Support](https://nextjs.org/docs/basic-features/built-in-css-support#sass-support)'s documentation suggests adding `sass` package and adding `sassOptions` to `next.config.js`.
 
