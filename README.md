@@ -14,7 +14,25 @@ yarn build
 
 ## Troubleshooting Attempts
 
-The following approaches were taken to troubleshoot and all failed.
+### WORKAROUND
+
+**Dynamic imports**
+```javascript
+import dynamic from 'next/dynamic';
+
+const KrgHeader = dynamic(() => import('@kargo/component-library-react.krg-header'), {
+  ssr: false,
+});
+
+export default function TopNav(props: any) {
+  return <KrgHeader />;
+}
+```
+**Challenges**
+How to import the named exports from the component, like types and enums.
+
+
+### FAILURES
 
 * **Apply SASS loader**: [Sass Support](https://nextjs.org/docs/basic-features/built-in-css-support#sass-support)'s documentation suggests adding `sass` package and adding `sassOptions` to `next.config.js`.
 
