@@ -16,6 +16,31 @@ yarn build
 
 ### WORKAROUND
 
+*Setup*
+
+Install next transpile modules
+```bash
+yarn add next-transpile-modules
+```
+
+Update `next.config.js`
+```javascript
+// Apply transpiler to component package
+const withTM = require('next-transpile-modules')([
+  '@kargo/component-library-react.krg-shared'
+]);
+
+const path = require('path');
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+};
+
+// Wrap the export
+module.exports = withTM(nextConfig);;
+```
+
+
 **Dynamic imports**
 
 ```javascript
