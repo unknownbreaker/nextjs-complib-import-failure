@@ -16,7 +16,7 @@ yarn build
 
 ### WORKAROUND
 
-*Setup*
+**Setup**
 
 Install next transpile modules
 ```bash
