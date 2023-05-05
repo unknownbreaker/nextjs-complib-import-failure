@@ -11,10 +11,8 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "@kargo/component-library-react.krg-button": "^2.0.41",
-    "@kargo/component-library-react.krg-header": "^2.0.39",
-    "@kargo/component-library-react.krg-shared": "^2.0.30",
-    "@kargo/component-library-react.krg-vertical-navigation": "^2.0.38",
+    "@kargo/component-library-react.krg-header-kargo-test": "0.0.3",
+    "@kargo/component-library-react.krg-shared-kargo-test": "0.0.2",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.1",
     "@mui/styles": "^5.12.0",

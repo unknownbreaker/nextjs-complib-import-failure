@@ -27,7 +27,7 @@ Update `next.config.js`
 ```javascript
 // Apply transpiler to component package
 const withTM = require('next-transpile-modules')([
-  '@kargo/component-library-react.krg-shared'
+  '@kargo/component-library-react.krg-shared-kargo-test'
 ]);
 
 const path = require('path');
@@ -46,7 +46,7 @@ module.exports = withTM(nextConfig);;
 ```javascript
 import dynamic from 'next/dynamic';
 
-const KrgHeader = dynamic(() => import('@kargo/component-library-react.krg-header'), {
+const KrgHeader = dynamic(() => import('@kargo/component-library-react.krg-header-kargo-test'), {
   ssr: false,
 });
 
