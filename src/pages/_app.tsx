@@ -1,11 +1,6 @@
-// import dynamic from 'next/dynamic';
-// import '@/styles/globals.css';
+import '@/styles/globals.css';
 import '../../public/styles/krg.scss';
 
-// Components
-// const KrgProvider = dynamic(() => import('@kargo/component-library-react.krg-shared-kargo-test').then((mod) => mod.KrgProvider), {
-//   ssr: false,
-// });
 import { KrgProvider } from '@kargo/component-library-react.krg-shared-kargo-test';
 import Layout from '../components/Layout';
 
