@@ -209,25 +209,18 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@kargo/component-library-react.krg-header-kargo-test@0.0.1":
-  version "0.0.1"
-  resolved "https://node.bit.dev/@kargo/component-library-react.krg-header-kargo-test/-/@kargo-component-library-react.krg-header-kargo-test-0.0.1.tgz#6be8dc71c10ed3444489518bfa09d442b20469e3"
-  integrity sha1-a+jcccEO00REiVGL+gnUQrIEaeM=
+"@kargo/component-library-react.krg-header-kargo-test@0.0.3":
+  version "0.0.3"
+  resolved "https://node.bit.dev/@kargo/component-library-react.krg-header-kargo-test/-/@kargo-component-library-react.krg-header-kargo-test-0.0.3.tgz#06bf3394c84168c97fdd89e4ce232a284daf6996"
+  integrity sha1-Br8zlMhBaMl/3YnkziMqKE2vaZY=
   dependencies:
-    "@kargo/component-library-react.krg-shared" "2.0.32"
+    "@kargo/component-library-react.krg-shared-kargo-test" "0.0.2"
     core-js "^3.0.0"
 
 "@kargo/component-library-react.krg-shared-kargo-test@0.0.2":
   version "0.0.2"
   resolved "https://node.bit.dev/@kargo/component-library-react.krg-shared-kargo-test/-/@kargo-component-library-react.krg-shared-kargo-test-0.0.2.tgz#1ed24f322839c836aa2d7423810b73009adbca0d"
   integrity sha1-HtJPMig5yDaqLXQjgQtzAJrbyg0=
-  dependencies:
-    core-js "^3.0.0"
-
-"@kargo/component-library-react.krg-shared@2.0.32":
-  version "2.0.32"
-  resolved "https://node.bit.dev/@kargo/component-library-react.krg-shared/-/@kargo-component-library-react.krg-shared-2.0.32.tgz#ea732d3e33fb20669c910c659680842600127583"
-  integrity sha1-6nMtPjP7IGackQxlloCEJgASdYM=
   dependencies:
     core-js "^3.0.0"
 
@@ -496,9 +489,9 @@
     "@types/react" "*"
 
 "@types/react@*":
-  version "18.2.0"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.0.tgz#15cda145354accfc09a18d2f2305f9fc099ada21"
-  integrity sha512-0FLj93y5USLHdnhIhABk83rm8XEGA7kH3cr+YUlvxoUGp1xNt/DINUMvqPxLyOQMzLmZe8i4RTHbvb8MC7NmrA==
+  version "18.2.2"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.2.tgz#2b6b1831d9c805b3790b6613becb5c8d2f3be479"
+  integrity sha512-4GZH3GLuqdZbDvOW5Pqqe7jgsDrKwkJfZMZLwFcgoz3CVDSvnMeG/Ihe44IbZ5Mqhh1fyTh5e44z6pNjIzzV8g==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
